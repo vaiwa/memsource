@@ -1,0 +1,33 @@
+{
+  "name": "memsource",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "scripts": {
+    "start": "coffee index.coffee",
+    "test": "mocha --compilers coffee:coffee-script/register --slow 4000 --recursive --bail --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaiwa/memsource.git"
+  },
+  "author": "Jan Navrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaiwa/memsource/issues"
+  },
+  "homepage": "https://github.com/vaiwa/memsource#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "body-parser": "^1.16.0",
+    "cson-config": "^0.1.12",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "request": "^2.79.0"
+  },
+  "engines": {
+    "node": "6.2.0",
+    "coffee-script": "1.10.0",
+    "npm": "3.10.3"
+  }
+}
