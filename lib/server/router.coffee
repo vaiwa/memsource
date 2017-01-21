@@ -7,7 +7,7 @@ module.exports = (app, logger) ->
   memApi = memsourceApi logger
 
   app.get '/', (req, res) ->
-    res.send 'hello world'
+    res.sendfile './public/index.html'
 
   app.post '/api/v1/login', (req, res) ->
     body = req.body

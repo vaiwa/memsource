@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.coffee",
   "scripts": {
+    "compile": "coffee --compile --output public/js/compiled lib/client",
     "start": "coffee index.coffee",
     "test": "mocha --compilers coffee:coffee-script/register --slow 4000 --recursive --bail --reporter spec test/"
   },
@@ -20,9 +21,11 @@
   "dependencies": {
     "async": "^2.1.4",
     "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
     "cson-config": "^0.1.12",
     "express": "^4.14.0",
     "lodash": "^4.17.4",
+    "pug": "^2.0.0-beta6",
     "request": "^2.79.0"
   },
   "engines": {

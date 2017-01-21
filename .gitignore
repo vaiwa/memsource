@@ -1,4 +1,6 @@
 .env
+public/js/compiled
+
 node_modules
 *.log
 npm-debug.log*

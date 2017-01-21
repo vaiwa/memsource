@@ -1,18 +1,22 @@
-# Memsource assignment
+# Memsource Assignment
 
 ## init
-`npm install`
+``` bash
+npm install
+npm run compile
 
-and create `.env` file:
-```
+# and create `.env` file with your own *userName* and *password*:
 echo 'LOGIN=userName' > .env
 echo 'PASSWD=password' >> .env
 ```
-with your own *userName* and *password*
 
 ## start
-`npm start`
+```bash
+npm start
+```
 and visit [localhost:8080](http://localhost:8080)
 
 ## run integration tests
-`npm test`
+```bash
+npm test
+```
